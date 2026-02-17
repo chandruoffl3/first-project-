@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <style>
+        body{
+        background-color:grey;
+        }
+        .form{
+            border: 2px;
+            border-color: black;
+            border-style: solid;
+            display: block;
+            margin-top: 100px;
+            margin-left: 500px;
+            height: 400px;
+            width: 500px;
+            padding: 100px;
+            align-items: center;
+            background-image: url(pfefferminza_viktualia-plant-8825881_1280.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            box-shadow: 9px 10px 10px,-9px -10px +10px;
+}
+        .form:hover{
+            box-shadow: 9px 9px 10px cadetblue,-9px -9px 10px rebeccapurple;
+        }
+        h1{
+            text-shadow:1px 5px 5px;
+            color:black;
+        }
+        h1:hover{
+            text-shadow: 3px 3px 5px cyan,-3px -3px 5px rebeccapurple ;
+            text-decoration:underline;
+
+        }
+        input{
+            box-shadow: 3px 3px 5px ,-3px -4px 5px ;
+
+        }
+        input:hover{
+            box-shadow:3px 3px 10px rebeccapurple,-3px -4px 10px navy;
+        }
+        #btn{
+            color:aliceblue;
+            background-color: black;
+            box-shadow:  3px 3px 5px ,-3px -4px 5px ;
+
+        }
+        #btn:hover{
+            color:rgb(0, 0, 0);
+            background-color: rgb(77,238,234);
+            box-shadow:  3px 3px 5px rgb(0,30,255) ,-3px -4px 5px rgb(240,0,255) ;
+        }
+
+        
+        input{
+            border: 10px;
+            border-radius: 20px;
+            padding: 10px;
+            margin-top: 10px;
+            
+        }
+        
+        #btn{
+            margin-top: 10px;
+        }
+        label{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+            font-size: 20px;
+        }
+    
+        
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h1>
+            Register Form
+        </h1>
+    <form action="">
+        <label> NAME:
+            <input type="text" placeholder="ENTER YOUR NAME" required><br>
+        </label>
+        <label> MOBLIE NUMBER:
+            <input type="number" placeholder="ENTER YOUR NUMBER" required>
+        </label>
+            <br>
+            <label id="one">
+            Coding fest   
+            <input type="radio" name="events">
+            </label>
+            <br>
+            <label id="two">
+            AI Workshop
+            <input type="radio"name="events">
+            </label>
+            <br>
+            <label id="three">
+            Robotics Show
+            <input type="radio"name="events">
+        </label>
+    
+        <br>
+       <button id="btn">
+        sumbit
+       </button> 
+
+        
+
+    </form>
+    </div>
+    
+</body>
+</html>

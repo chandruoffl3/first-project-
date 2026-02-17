@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events</title>
+    <style>
+        body{
+         background-image: url(abstract-blur-shopping-mall.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        }
+        .image{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        margin: 50px 20px 20px 80px;
+        grid-gap: 30px;
+        object-fit: cover;
+        justify-content: space-evenly;
+        align-items:space-evenly;
+        }
+        @media(max-width:600px) {
+            .image{
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+        img{
+        width: 400px;
+        box-shadow: 3px 3px 3px navy,-3px -3px 3px purple;
+
+        }
+        img:hover{
+            animation-name: ok;
+            animation-duration: 2s;
+        }
+        @keyframes ok{
+            to{transform: scale(1.05);}
+        }
+        h2{
+        text-align: center;
+        color: gray;
+        margin: 20px;
+        text-decoration: underline;
+        text-shadow: 2px 2px 5px;
+        }
+        h2:hover{
+            color: aliceblue;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div>
+        <h2>EVENTS</h2>
+    <div class="image">
+        <img src="Gemini_Generated_Image_usl85zusl85zusl8 (1).png" alt="">
+        <img src="Gemini_Generated_Image_usl85zusl85zusl8.png" alt="">
+        <img src="Gemini_Generated_Image_usl85zusl85zusl8 (3).png" alt="">
+        <img src="Gemini_Generated_Image_usl85zusl85zusl8 (4).png" alt="">
+        <img src="Gemini_Generated_Image_usl85zusl85zusl8 (5).png" alt="">
+        <img src="Gemini_Generated_Image_usl85zusl85zusl8 (6).png" alt="">
+    </div>
+    </div>
+   
+    
+</body>
+</html>
